@@ -1,0 +1,81 @@
+
+
+
+ul {
+    /* border: solid rgb(115, 243, 115) 1px; */
+    width: 60%; /*se o wisth estiver longo, vai estra muito espaçado por conta do display flex (row) e o s*/
+    list-style: none; /*Tira a estilização (no caso do <ul> as bolinhas em cada item */
+    display: flex;  /* diplay flex no ul deixa os <li> alinhados (em row) porque são filhos do <ul> */
+    justify-content: space-around; 
+   /* sem o  justify-content: space-around; todos os <li> ficam colados, sem espaçamento*/
+   height: 70%;
+}
+
+
+a {
+    text-decoration: none; /*Tira a estilização (no caso do <a> as linhas em baixo de cada ancora */
+    color: #ffc0cb;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border: solid red 2px; */
+    
+}
+
+
+header {
+    background-color: purple;
+    /* border: solid yellow 2px; */
+    width: 100%;
+    height: 60px;
+}
+
+/*.container {
+    background-color: purple;
+    border: solid pink 2px;
+    /* display: flex; 
+    height: 60px;
+}*/
+/* Perguntar porque a header não precisa de SECTION */
+
+nav {
+    color: #ffc0cb;
+    /* border: solid rgb(0, 0, 0) 2px; */
+    width: 100%;
+    height: 100%;
+    display: flex; /*sempre que for usar align itens ou jusify content é preciso abilitar o display flex, mesmo que ao habilitar ainda não mude nada (pq ja esta em row e mão sao os pais dos <li>)*/
+    justify-content: end; /*justify-content ROW*/
+    /* align-items: start; */ /*aling itens COLUNA*/
+}
+
+/* ----------------------------- COMEÇO DOS CARD--------------- */
+
+.card_style {
+    background-color: rgb(216, 51, 22);
+    border: solid black 4px;
+    border-radius: 25px;
+    width: 280px;
+    height: 380px;
+
+    display: flex; 
+    flex-direction: column; /* ...deixa em coluna*/
+    align-items: center;
+    gap: 2px; /*O GAP aumenta o espaçamento entre os FILHOS da semantica na qual esta sendo aplicada*/
+
+    padding: 10px; /*Espaçamento interno dos elementos*/
+    margin: 40px; /*Espaçamento externo dos elementos*/
+
+
+}
+
+
+.first_input-style { /*estilização do input, a barra escrever*/
+    border: none;
+
+
+}
+
+.style_image {
+    height: 300px;
+    border: solid black 6px;
+    border-radius: 25px;
+}
+
