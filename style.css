@@ -50,7 +50,7 @@ nav {
 
 .card_style {
     background-color: rgb(216, 51, 22);
-    border: solid black 4px;
+    border: solid rgb(137, 56, 56) 4px;
     border-radius: 25px;
     width: 280px;
     height: 380px;
@@ -67,15 +67,21 @@ nav {
 }
 
 
-.first_input-style { /*estilização do input, a barra escrever*/
+.first_input_style {
+    /*estilização do input, a barra escrever*/
     border: none;
+    outline: none;
+    border-radius: 80px;
 
+    width: 95%;
 
+    padding: 8px;
 }
+
 
 .style_image {
     height: 300px;
-    border: solid black 6px;
+    border: solid rgb(241, 168, 42) 6px;
     border-radius: 25px;
 }
 
