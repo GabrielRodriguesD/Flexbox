@@ -58,9 +58,10 @@ nav {
     display: flex; 
     flex-direction: column; /* ...deixa em coluna*/
     align-items: center;
-    gap: 2px; /*O GAP aumenta o espaçamento entre os FILHOS da semantica na qual esta sendo aplicada*/
+    justify-content: center;
+    gap: 15px; /*O GAP aumenta o espaçamento entre os FILHOS da semantica na qual esta sendo aplicada*/
 
-    padding: 10px; /*Espaçamento interno dos elementos*/
+    padding: 40px; /*Espaçamento interno dos elementos*/
     margin: 40px; /*Espaçamento externo dos elementos*/
 
 
@@ -72,10 +73,11 @@ nav {
     border: none;
     outline: none;
     border-radius: 80px;
-
+    
     width: 95%;
-
+    
     padding: 8px;
+    /* margin: 5px; */
 }
 
 
@@ -84,4 +86,50 @@ nav {
     border: solid rgb(241, 168, 42) 6px;
     border-radius: 25px;
 }
+
+/* ----------------------------- COMEÇO DO CARD 2--------------- */
+
+.card_style2 {
+  gap: 0x;
+ 
+
+    
+}
+
+.style_image2 {
+    height: 100px;
+    width: 100px;
+    border: solid rgb(241, 168, 42) 6px;
+    border-radius: 25px;
+    
+}
+
+
+
+
+main {
+    display: flex; 
+    }
+
+.container_image {
+
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px;
+
+
+    
+    gap: 10px 40px;
+    width: 322px;
+    height: 311px;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    
+    
+    padding: 10px;
+    margin: 10px;
+}
+    
+
 
